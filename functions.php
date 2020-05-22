@@ -19,9 +19,15 @@ add_action('wp_enqueue_scripts', 'load_css');
 /* LOAD JS SCRIPTS */
 function load_js()
 {
+    // wp_enqueue_script('jquery');
+    // wp_register_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap/bootstrap.min.js', 'jquery', false, true);
+    // wp_enqueue_script('bootstrap');
+
     wp_enqueue_script('jquery');
-    wp_register_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap/bootstrap.min.js', 'jquery', false, true);
-    wp_enqueue_script('bootstrap');
+    wp_register_script('jquery', get_template_directory_uri() . '/assets/js/jquery-3.5.1.js', 'jquery', false, true);
+    wp_enqueue_script('jquery');
+
+    wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/custom.js',  true);
 }
 add_action('wp_enqueue_scripts', 'load_js');
 
@@ -35,5 +41,15 @@ register_nav_menus(
     array(
         'top-menu' => 'Top Menu Location',
         'mobile-menu' => 'Mobile Menu Location',
+        'primary' => __( 'Primary Menu', 'THEMENAME' ),
     )
 );
+
+/**
+ * Register Custom Navigation Walker
+ */
+function register_navwalker(){
+	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+}
+add_action( 'after_setup_theme', 'register_navwalker' );
+

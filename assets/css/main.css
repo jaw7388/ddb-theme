@@ -1,0 +1,52 @@
+header {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+header .navbar {
+  background-color: rgba(152, 152, 152, 0) !important;
+}
+
+header .navbar .nav-logo {
+  max-height: 130px;
+}
+
+header .navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  transition: 1s;
+}
+
+header .navbar .navbar-nav .nav-link:hover {
+  color: #D41727;
+}
+
+header .navbar .navbar-nav .nav-link:hover > .ul.dropdown-menu {
+  display: block !important;
+}
+
+header .navbar .navbar-nav .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.header-image {
+  /*height: 100vh;*/
+  background-color: rgba(255, 255, 255, 0);
+  background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://wirxpharmacy.com/wp-content/uploads/2019/12/WIRX-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+}
+

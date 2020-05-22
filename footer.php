@@ -7,7 +7,8 @@
  */
 
 ?>
-
 <?php wp_footer(); ?>
+
+HOLA
 </body>
 </html>
