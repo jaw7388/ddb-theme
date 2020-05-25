@@ -1,4 +1,5 @@
-jQuery(document).ready(function(){
-    alto = jQuery('header').height()
+
+$(document).ready(function(){
+    alto = $('header').height()
     console.log(alto);
 })

@@ -1,21 +1,12 @@
 @import 'components/header';
 @import 'components/variables';
+@import 'components/footer';
+@import 'components/front-page';
 
-.header-image{
-    
-    /*height: 100vh;*/
-    background-color: rgba(255, 255, 255, 0);
-    background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://wirxpharmacy.com/wp-content/uploads/2019/12/WIRX-header.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #ffffff;
-    height: 700px;
+body{
+    font-family: Lato;
 }
-
-
-
-
-
-
+.background-redddb{
+    background: #b70817;
+}
 

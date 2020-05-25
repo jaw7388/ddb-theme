@@ -19,9 +19,9 @@
 <body>
 	
 <header>
-
+<div class="top-bar">321-321-321</div>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-light" role="navigation">
-	<div class="container-fluid">
+	<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<a class="navbar-brand" href="#">
 				<img src="https://ddb.com.co/img/logo.png" alt="" class="nav-logo">
