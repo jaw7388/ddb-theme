@@ -281,7 +281,7 @@ footer .footer-copyright {
 /* Opera < 12.1 */
 
 .header-message {
-  padding: 200px 0px 70px;
+  padding: 250px 0px 70px;
   background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -395,8 +395,18 @@ footer .footer-copyright {
   background-attachment: fixed;
 }
 
+.header-page {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  height: 50vh;
+}
+
 body {
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
 }
 
 .background-redddb {
