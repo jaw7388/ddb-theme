@@ -98,6 +98,32 @@ get_header();?>
     </div>
 </section>
 
+
+<section>
+    <div class="container mb-5 pt-5 border-top border-danger">
+        <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/ABBOTT.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/BAXTER.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/BAYER.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/B-BRAUN.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/CHALVER.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/BIOGEN.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section-testimonial section-with-background">
     <div class="row ">
         <div class="col-md-12 text-center">
@@ -120,11 +146,33 @@ get_header();?>
             <p><strong>Mary Wells</strong> </p>
             <p>Hospital San Rafael de Fusa</p>
         </div>
-    </div>
-    
-    
+    </div> 
 </section>
 
+<section>
+    <div class="container mb-5 pt-5" >
+        <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/HOSP-SIMON-B.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/HOSP-TUNAL.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/HOSP-MEDERI.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/CLINICA-NUEVA.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/OSP-S-IGNACIO.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 text-center">
+                <img src="wp-content/uploads/2020/05/HOSP-MEISSEN.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php get_footer(); ?>

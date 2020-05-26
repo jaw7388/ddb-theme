@@ -14,7 +14,9 @@
         <div class="row">
             <div class="col-md-3">
                 <div>
-                    <img src="https://ddb.com.co/img/logo.png" alt="" class="footer-logo">
+                    <a href="<?php echo home_url(); ?>">
+                        <img src="https://ddb.com.co/img/logo.png" alt="" class="footer-logo">
+                    </a>    
                 </div>
             </div>
             <div class="col-md-3">
