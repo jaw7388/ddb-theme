@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 990px){
     .top-bar{
-        background: rgba(93, 93, 93, 0.37) ;
+        background: rgba(93, 93, 93, 0) ;
         color: #ffffff;
         margin: 0 -3em;
         font-size: 0.8em;
@@ -44,12 +44,12 @@
         padding-right: 2em;
         z-index: 999;
         .navbar{
-            background-color: rgba(93, 93, 93, 0.37) !important;
+            background-color: rgba(93, 93, 93, 0) !important;
             margin: 0 -2em;
             padding: 0 1em;
             .nav-logo{
-                max-height: 100px;
-                margin-top: 0.5em;
+                max-height: 90px;
+                margin: 0.5em 0;
             }
             .navbar-nav {
                 .nav-link {
@@ -146,4 +146,30 @@
             }
         }
     }
+}
+
+@media (max-width:990px) and (min-width:100px) {
+
+    .top-bar{
+        display: none;
+    }
+
+    header{
+        background: #000000;
+        .navbar{
+            background-color: #000000 !important;
+
+            .nav-logo{
+                max-height: 90px;
+                margin: 0.5em 0;
+            }
+
+            .navbar-collapse{
+                ul li{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
 }

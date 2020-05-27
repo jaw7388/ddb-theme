@@ -394,8 +394,8 @@ function (module, exports, __webpack_require__) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\ddb\wp-content\themes\ddb-theme\dist\app.js */"./dist/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\ddb\wp-content\themes\ddb-theme\assets\css\sass\main.scss */"./assets/css/sass/main.scss");
+__webpack_require__(/*! C:\xampp\htdocs\ddb\wp-content\themes\ddb\dist\app.js */"./dist/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\ddb\wp-content\themes\ddb\assets\css\sass\main.scss */"./assets/css/sass/main.scss");
 
 
 /***/ })

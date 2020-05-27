@@ -70,7 +70,7 @@ from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-
         line-height: 1.1;
         letter-spacing: -3px;
         font-style: normal;
-        font-size: 4em;
+        font-size: 3em;
     }
 }
 
@@ -79,8 +79,7 @@ from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-
 }
 
 .section-with-background{
-    padding: 3em 0em;
-    
+    padding: 4em 0em;
     color: #ffffff;
 
     h3{
@@ -99,6 +98,10 @@ from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-
             background: #ffffff;
         }
     }
+    .description-text{
+        margin-top: 2em;
+    }
+
     p{
         line-height: 1.5;
         font-weight: 400;
@@ -106,8 +109,12 @@ from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-
         font-size: 1.1em;
         margin-top: 1em;
     }
-    .service .far, .fas{
-        font-size: 5em;
+    .service{
+        margin-top: 2em;
+        .far, .fas{
+            font-size: 5em;
+    } 
+        
     }
     .icon-text{
         font-weight: 400;
@@ -164,4 +171,64 @@ from { opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-
     padding: 70px 30px;
     background-size: cover;
     background-attachment: fixed;
+}
+
+
+        .products {
+            margin-top: 3em;
+            a{
+                margin-top: 2em;
+                color: #000000;
+                //background: #b70817a8;
+                img{
+                    // opacity: 1;
+                     -webkit-transition: .1s ease-in-out;
+                     transition: .1s ease-in-out;
+                    
+                }
+                &:hover {
+                    img {
+                        //opacity: .5;
+                        transform: scale(0.96);
+                        border-radius: 10px;
+                    }
+                }
+                &:hover{
+                    //transform: scale(0.99);
+                    color: $redDdb;
+                    text-decoration: none;
+                }
+            }
+        }
+
+@media (max-width:990px) and (min-width:100px) {
+    .header-message-wrap{
+            display: flex;
+            justify-content: center;
+
+        .header-message{
+            padding: 50px 0px 20px;
+            background-position: left top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: auto;
+            text-align: center;
+    
+            h1{
+                font-family: Lato;
+                font-weight: 700;
+                line-height: 1.1;
+                letter-spacing: -3px;
+                font-style: normal;
+                font-size: 3em;
+            }
+        }   
+    }
+    .section-with-background{
+        padding: 3em 1em;
+
+        .service{
+            border: none !important;
+        }
+    }
 }

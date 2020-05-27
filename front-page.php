@@ -12,8 +12,8 @@ get_header();?>
 <section class="container-fluid main">
     <div class="row header-image">
         <div class="container wrap-animation">
-            <div class="row">
-                <div class="col-6 header-message">
+            <div class="row header-message-wrap">
+                <div class="col-5 header-message">
                     <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
                     <div class="title-separator mt-4"></div>
                     <div class="mt-4">
@@ -35,11 +35,11 @@ get_header();?>
             <div class="col-md-12 text-center" >
                 <h3>Comercialización y distribución de medicamentos a la medida</h3>
             </div>
-            <p class="mt-3">
+            <p class="description-text">
             Nos especializamos en la comercialización y distribución de productos farmacéuticos éticos y genéricos, dispositivos médicos y kits institucionales a entidades estatales y privadas
             </p>
         </div>
-        <div class="row mt-5">
+        <div class="row">
             <div class="col-md-3 text-center border-right border-light service">
                 <i class="far fa-clock"></i>
                 <div class="mt-3"></div>
@@ -75,24 +75,33 @@ get_header();?>
                 <h3>Productos</h3>
             </div>    
         </div>
-        <div class="row mt-5">
-            <div class="col-md-4 text-center border-right border-light">
-                <img src="wp-content/uploads/2020/05/medicamentos.jpg" alt="">
-                <div class="mt-3"></div>
-                <h4>MEDICAMENTOS</h4>
-                Productos farmaceúticos, éticos y genéricos con el respaldo de los mejores laboratorios
-            </div>
-            <div class="col-md-4 text-center border-right border-light">
-                <img src="wp-content/uploads/2020/05/dispositivos.jpg" alt="">
-                <div class="mt-3"></div>
-                <h4>DISPOSITIVOS MÉDICOS</h4>
-                Dispositivos médicos de alta calidad. Canales de distribución y asesoría en calidad
+        <div class="row products">
+            <div class="col-md-4 text-center">
+                <a href="">
+                    <img src="wp-content/uploads/2020/05/medicamentos.jpg" alt="">
+                    <div class="mt-3">
+                        <h4>MEDICAMENTOS</h4>
+                        Productos farmaceúticos, éticos y genéricos con el respaldo de los mejores laboratorios
+                    </div>
+                </a>
             </div>
             <div class="col-md-4 text-center">
-                <img src="wp-content/uploads/2020/05/kits.jpg" alt=""> 
-                <div class="mt-3"></div>
-                <h4>KITS</h4>
-                Kits de emergencia materna, Kits de violencia sexual a menores y adultos, Kits de glucometría
+                <a href="">
+                    <img src="wp-content/uploads/2020/05/dispositivos.jpg" alt="">
+                    <div class="mt-3">
+                        <h4>DISPOSITIVOS MÉDICOS</h4>
+                        Dispositivos médicos de alta calidad. Canales de distribución y asesoría en calidad
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="">
+                    <img src="wp-content/uploads/2020/05/kits.jpg" alt=""> 
+                    <div class="mt-3">
+                        <h4>KITS</h4>
+                        Kits de emergencia materna, Kits de violencia sexual a menores y adultos, Kits de glucometría
+                    </div>
+                </a>
             </div>
         </div>
     </div>

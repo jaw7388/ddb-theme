@@ -1,9 +1,36 @@
-.header-page{
-    background-color: rgba(255, 255, 255, 0);
-    background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%) ;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #ffffff;
-    height: 50vh;
+.page-hero-text{
+    padding: 200px 0px 70px;
+    background-position: left top;
+    height: auto;
+    h1{
+        font-size: 4em;
+        text-transform: uppercase;
+        &:after{
+            transform: translateX(-50%);
+            content: '';
+            left: 50%;
+            bottom: 0;
+            position: absolute;
+            width: 10em;
+            height: 2px;
+            background: $redDdb;
+        }
+    }
+}
+
+.section-nosotros{
+    text-align: center;
+    padding: 3em 2em;
+    color: #858585;
+    img{
+        border-radius: 50%;
+        max-height: 70px;
+    }
+}
+
+.principios-corporativos{
+    i{
+        font-size: 3em;
+        color: $redDdb;
+    }
 }

@@ -1,6 +1,6 @@
 @media screen and (min-width: 990px) {
   .top-bar {
-    background: rgba(93, 93, 93, 0.37);
+    background: rgba(93, 93, 93, 0);
     color: #ffffff;
     margin: 0 -3em;
     font-size: 0.8em;
@@ -42,14 +42,14 @@
   }
 
   header .navbar {
-    background-color: rgba(93, 93, 93, 0.37) !important;
+    background-color: rgba(93, 93, 93, 0) !important;
     margin: 0 -2em;
     padding: 0 1em;
   }
 
   header .navbar .nav-logo {
-    max-height: 100px;
-    margin-top: 0.5em;
+    max-height: 90px;
+    margin: 0.5em 0;
   }
 
   header .navbar .navbar-nav .nav-link {
@@ -143,6 +143,29 @@
   }
 }
 
+@media (max-width: 990px) and (min-width: 100px) {
+  .top-bar {
+    display: none;
+  }
+
+  header {
+    background: #000000;
+  }
+
+  header .navbar {
+    background-color: #000000 !important;
+  }
+
+  header .navbar .nav-logo {
+    max-height: 90px;
+    margin: 0.5em 0;
+  }
+
+  header .navbar .navbar-collapse ul li {
+    text-align: center;
+  }
+}
+
 footer {
   background: #170002;
   padding: 3em 0em;
@@ -216,6 +239,21 @@ footer .social-footer {
 footer .footer-copyright {
   font-size: 0.6em;
   margin-top: 4em;
+}
+
+@media (max-width: 990px) and (min-width: 100px) {
+  footer .footer-logo {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  footer div h5 {
+    text-align: center;
+  }
+
+  footer ul li {
+    text-align: center;
+  }
 }
 
 .header-image {
@@ -294,7 +332,7 @@ footer .footer-copyright {
   line-height: 1.1;
   letter-spacing: -3px;
   font-style: normal;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .title-separator {
@@ -302,7 +340,7 @@ footer .footer-copyright {
 }
 
 .section-with-background {
-  padding: 3em 0em;
+  padding: 4em 0em;
   color: #ffffff;
 }
 
@@ -323,6 +361,10 @@ footer .footer-copyright {
   background: #ffffff;
 }
 
+.section-with-background .description-text {
+  margin-top: 2em;
+}
+
 .section-with-background p {
   line-height: 1.5;
   font-weight: 400;
@@ -331,8 +373,12 @@ footer .footer-copyright {
   margin-top: 1em;
 }
 
+.section-with-background .service {
+  margin-top: 2em;
+}
+
 .section-with-background .service .far,
-.section-with-background .fas {
+.section-with-background .service .fas {
   font-size: 5em;
 }
 
@@ -395,14 +441,98 @@ footer .footer-copyright {
   background-attachment: fixed;
 }
 
-.header-page {
-  background-color: rgba(255, 255, 255, 0);
-  background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #ffffff;
-  height: 50vh;
+.products {
+  margin-top: 3em;
+}
+
+.products a {
+  margin-top: 2em;
+  color: #000000;
+}
+
+.products a img {
+  transition: 0.1s ease-in-out;
+}
+
+.products a:hover img {
+  transform: scale(0.96);
+  border-radius: 10px;
+}
+
+.products a:hover {
+  color: #b70817;
+  text-decoration: none;
+}
+
+@media (max-width: 990px) and (min-width: 100px) {
+  .header-message-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-message-wrap .header-message {
+    padding: 50px 0px 20px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    text-align: center;
+  }
+
+  .header-message-wrap .header-message h1 {
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -3px;
+    font-style: normal;
+    font-size: 3em;
+  }
+
+  .section-with-background {
+    padding: 3em 1em;
+  }
+
+  .section-with-background .service {
+    border: none !important;
+  }
+}
+
+.page-hero-text {
+  padding: 200px 0px 70px;
+  background-position: left top;
+  height: auto;
+}
+
+.page-hero-text h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.page-hero-text h1:after {
+  transform: translateX(-50%);
+  content: "";
+  left: 50%;
+  bottom: 0;
+  position: absolute;
+  width: 10em;
+  height: 2px;
+  background: #b70817;
+}
+
+.section-nosotros {
+  text-align: center;
+  padding: 3em 2em;
+  color: #858585;
+}
+
+.section-nosotros img {
+  border-radius: 50%;
+  max-height: 70px;
+}
+
+.principios-corporativos i {
+  font-size: 3em;
+  color: #b70817;
 }
 
 body {

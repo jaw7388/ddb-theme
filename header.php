@@ -57,7 +57,7 @@
 	<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<a class="navbar-brand" href="<?php echo home_url(); ?>">
-				<img src="https://ddb.com.co/img/logo.png" alt="" class="nav-logo">
+				<img src="<?php echo(get_site_url() . '/wp-content/uploads/2020/05/ddb-logo_blanco.png');?>" alt="" class="nav-logo">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation"> 
 			<span class="navbar-toggler-icon"></span>

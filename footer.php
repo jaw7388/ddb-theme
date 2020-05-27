@@ -13,9 +13,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div>
+                <div class="footer-logo">
                     <a href="<?php echo home_url(); ?>">
-                        <img src="https://ddb.com.co/img/logo.png" alt="" class="footer-logo">
+                        <img src="<?php echo(get_site_url() . '/wp-content/uploads/2020/05/ddb-logo_blanco.png');?>" alt="" class="footer-logo">
                     </a>    
                 </div>
             </div>
@@ -34,6 +34,10 @@
                     Transversal 93 # 51-98 
                     Parque Empresarial Puerta del Sol Bodega 18  (Bogotá-Colombia)
                 </a>
+                <div>
+                    <i class="far fa-clock"></i>
+					Mar - Sab 7am - 4pm
+                </div>
             </div>
             <div class="col-md-3">
                 <h5>Teléfono</h5>
