@@ -78,6 +78,34 @@ margin-bottom: 2em;">
                 <p>Desarrollar tecnologías más apropiadas, mecanismos y procedimientos de optimización en el manejo integral de residuos hospitalarios y similares, con el fin de prevenir y minimizar los impactos sanitarios y ambientales causados por las actividades del área operacional y administrativa. La gestión se fundamentará en la capacitación del recurso humano y el mejoramiento continuo de los procesos y procedimientos.</p>
             </div>
         </div>
+        <hr>
+        
+        <div class="row">
+            <div class="col-md-12">
+            <h1 class="text-center mt-5 mb-4">Política de salud ocupacional</h1>
+            <p>
+            DEPÓSITO DE DROGAS BOYACÁ empresa dedicada a la comercialización, distribución de medicamentos y dispositivos médicos, se compromete con la protección y promoción de la salud de los trabajadores, procurando su integridad física mediante el control de los riesgos, el mejoramiento continuo de los procesos y la protección del medio ambiente.
+            </p>
+            <p>
+            Todos los colaboradores asumen el compromiso de promover un ambiente de trabajo sano y seguro, cumpliendo los requisitos legales aplicables vinculando a las partes interesadas en el Sistema de Gestión de la Seguridad y Salud en el trabajo.
+            </p>
+            <p>
+            La alta dirección se compromete a destinar los recursos humanos, físicos y financieros necesarios para la gestión de la salud y la seguridad.
+            </p>
+            <p>
+            Los programas desarrollados en DEPÓSITO DE DROGAS BOYACÁ estarán orientados al fomento de una cultura preventiva y del auto cuidado, a la intervención de las condiciones de salud y enfermedades laborales o de origen común, al control del ausentismo y a la preparación para emergencias.
+            </p>
+            <p>
+            Todos los empleados, contratistas y temporales tendrán la responsabilidad de cumplir con las normas y procedimientos de seguridad con el fin de realizar un trabajo seguro y productivo. Igualmente serán responsables de notificar oportunamente todas aquellas condiciones que puedan generar consecuencias y contingencias para los empleados y la organización.  Para tal fin la empresa se compromete a:
+            </p>
+            <p>
+            Promover ambientes de trabajo seguro garantizando el cumplimiento de todas las actividades del sistema de gestión de seguridad y salud en el trabajo.
+            </p>
+            <p>
+            Estimular hábitos de vida saludable, mediante la realización de exámenes médicos, seguimiento y control a las condiciones de salud y realizando actividades de promoción y prevención
+            </p>
+            </div>
+        </div>
     </div>
     <hr>
 </section>
@@ -88,3 +116,4 @@ margin-bottom: 2em;">
 
 <?php
 get_footer();
+

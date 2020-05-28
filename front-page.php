@@ -9,25 +9,25 @@ get_header();?>
     <?php //get_template_part('includes/section', 'content') ?>
 </div> -->
 
-<section class="container-fluid main">
-    <div class="row header-image">
-        <div class="container wrap-animation">
-            <div class="row header-message-wrap">
-                <div class="col-5 header-message">
-                    <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
-                    <div class="title-separator mt-4"></div>
-                    <div class="mt-4">
-                        <h3>
-                            <span class="header-sub-text">
-                                Comprometidos con la salud de todos los colombianos
-                            </span>
-                        </h3>    
+    <section class="container-fluid main">
+        <div class="row header-image">
+            <div class="container wrap-animation">
+                <div class="row">
+                    <div class="col-6 header-message">
+                        <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
+                        <div class="title-separator mt-4"></div>
+                        <div class="mt-4">
+                            <h3>
+                                <span class="header-sub-text">
+                                    Comprometidos con la salud de todos los colombianos
+                                </span>
+                            </h3>    
+                        </div>
                     </div>
-                </div>
-            </div>    
+                </div>    
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <section class="section-with-background background-redddb">
     <div class="container">
@@ -35,11 +35,11 @@ get_header();?>
             <div class="col-md-12 text-center" >
                 <h3>Comercialización y distribución de medicamentos a la medida</h3>
             </div>
-            <p class="description-text">
+            <p class="mt-3">
             Nos especializamos en la comercialización y distribución de productos farmacéuticos éticos y genéricos, dispositivos médicos y kits institucionales a entidades estatales y privadas
             </p>
         </div>
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-md-3 text-center border-right border-light service">
                 <i class="far fa-clock"></i>
                 <div class="mt-3"></div>
@@ -75,32 +75,29 @@ get_header();?>
                 <h3>Productos</h3>
             </div>    
         </div>
-        <div class="row products">
-            <div class="col-md-4 text-center">
-                <a href="">
+        <div class="row mt-5">
+            <div class="col-md-4 text-center products">
+                <a href="<?php echo(get_site_url() . '/productos#medicamentos');?>">
                     <img src="wp-content/uploads/2020/05/medicamentos.jpg" alt="">
-                    <div class="mt-3">
-                        <h4>MEDICAMENTOS</h4>
-                        Productos farmaceúticos, éticos y genéricos con el respaldo de los mejores laboratorios
-                    </div>
+                    <div class="mt-3"></div>
+                    <h4>MEDICAMENTOS</h4>
+                    Productos farmaceúticos, éticos y genéricos con el respaldo de los mejores laboratorios
                 </a>
             </div>
-            <div class="col-md-4 text-center">
-                <a href="">
+            <div class="col-md-4 text-center products">
+                <a href="<?php echo(get_site_url() . '/productos#kits');?>">
                     <img src="wp-content/uploads/2020/05/dispositivos.jpg" alt="">
-                    <div class="mt-3">
-                        <h4>DISPOSITIVOS MÉDICOS</h4>
-                        Dispositivos médicos de alta calidad. Canales de distribución y asesoría en calidad
-                    </div>
+                    <div class="mt-3"></div>
+                    <h4>DISPOSITIVOS MÉDICOS</h4>
+                    Dispositivos médicos de alta calidad. Canales de distribución y asesoría en calidad
                 </a>
             </div>
-            <div class="col-md-4 text-center">
-                <a href="">
+            <div class="col-md-4 text-center products">
+                <a href="<?php echo(get_site_url() . '/productos#kits');?>">
                     <img src="wp-content/uploads/2020/05/kits.jpg" alt=""> 
-                    <div class="mt-3">
-                        <h4>KITS</h4>
-                        Kits de emergencia materna, Kits de violencia sexual a menores y adultos, Kits de glucometría
-                    </div>
+                    <div class="mt-3"></div>
+                    <h4>KITS</h4>
+                    Kits de emergencia materna, Kits de violencia sexual a menores y adultos, Kits de glucometría
                 </a>
             </div>
         </div>
@@ -111,22 +108,22 @@ get_header();?>
 <section>
     <div class="container mb-5 pt-5 border-top border-danger">
         <div class="row d-flex justify-content-between align-items-center">
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/ABBOTT.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/BAXTER.png" alt="" class="img-fluid">
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/BAYER.png" alt="" class="img-fluid">
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/B-BRAUN.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/CHALVER.png" alt="" class="img-fluid">
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/BIOGEN.png" alt="" class="img-fluid">
             </div>
         </div>
@@ -161,22 +158,22 @@ get_header();?>
 <section>
     <div class="container mb-5 pt-5" >
         <div class="row d-flex justify-content-between align-items-center">
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/HOSP-SIMON-B.png" alt="" class="img-fluid">
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/HOSP-TUNAL.png" alt="" class="img-fluid">
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/HOSP-MEDERI.png" alt="" class="img-fluid">
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/CLINICA-NUEVA.png" alt="" class="img-fluid">
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/OSP-S-IGNACIO.png" alt="" class="img-fluid">
             </div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center gray-hover-effect">
                 <img src="wp-content/uploads/2020/05/HOSP-MEISSEN.png" alt="" class="img-fluid">
             </div>
         </div>

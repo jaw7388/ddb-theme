@@ -521,7 +521,6 @@ footer .footer-copyright {
 
 .section-nosotros {
   text-align: center;
-  padding: 3em 2em;
   color: #858585;
 }
 
@@ -535,11 +534,119 @@ footer .footer-copyright {
   color: #b70817;
 }
 
+@media (max-width: 990px) and (min-width: 100px) {
+  .page-hero-text {
+    padding: 100px 0px 70px;
+    background-position: left top;
+    height: auto;
+  }
+
+  .page-hero-text h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .page-hero-text h1:after {
+    width: 5em;
+  }
+}
+
+.wpcf7 {
+  font-family: "Open Sans Condensed", arial, sans;
+  width: 100%;
+  padding: 30px;
+  background: #FFFFFF;
+  margin: 0em auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.wpcf7 h2 {
+  background: #4D4D4D;
+  text-transform: uppercase;
+  color: #797979;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+
+.wpcf7 input[type=text],
+.wpcf7 input[type=date],
+.wpcf7 input[type=datetime],
+.wpcf7 input[type=email],
+.wpcf7 input[type=number],
+.wpcf7 input[type=search],
+.wpcf7 input[type=time],
+.wpcf7 input[type=url],
+.wpcf7 input[type=password],
+.wpcf7 textarea,
+.wpcf7 select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #b70817;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 45px;
+}
+
+.wpcf7 textarea {
+  overflow: hidden;
+}
+
+.wpcf7 input[type=button],
+.wpcf7 input[type=submit] {
+  box-shadow: inset 0px 1px 0px 0px #b70817;
+  background-color: #b70817;
+  border: 1px solid #b70817;
+  display: inline-block;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 14px;
+  padding: 8px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.wpcf7 input[type=button]:hover,
+.wpcf7 input[type=submit]:hover {
+  background-color: #000000;
+  border: 1px solid #000000;
+  box-shadow: inset 0px 1px 0px 0px #000000;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
 
 .background-redddb {
   background: #b70817;
+}
+
+.gray-hover-effect img {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+
+.gray-hover-effect img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
 }
 
