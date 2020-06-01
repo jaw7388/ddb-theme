@@ -76,7 +76,7 @@ get_header();?>
             </div>    
         </div>
         <div class="row mt-5">
-            <div class="col-md-4 text-center products">
+            <div class="col-md-4 text-center home-products-wraper">
                 <a href="<?php echo(get_site_url() . '/productos#medicamentos');?>">
                     <img src="wp-content/uploads/2020/05/medicamentos.jpg" alt="">
                     <div class="mt-3"></div>
@@ -84,7 +84,7 @@ get_header();?>
                     Productos farmaceúticos, éticos y genéricos con el respaldo de los mejores laboratorios
                 </a>
             </div>
-            <div class="col-md-4 text-center products">
+            <div class="col-md-4 text-center home-products-wraper">
                 <a href="<?php echo(get_site_url() . '/productos#kits');?>">
                     <img src="wp-content/uploads/2020/05/dispositivos.jpg" alt="">
                     <div class="mt-3"></div>
@@ -92,7 +92,7 @@ get_header();?>
                     Dispositivos médicos de alta calidad. Canales de distribución y asesoría en calidad
                 </a>
             </div>
-            <div class="col-md-4 text-center products">
+            <div class="col-md-4 text-center home-products-wraper">
                 <a href="<?php echo(get_site_url() . '/productos#kits');?>">
                     <img src="wp-content/uploads/2020/05/kits.jpg" alt=""> 
                     <div class="mt-3"></div>

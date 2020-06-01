@@ -42,9 +42,8 @@ add_action('wp_enqueue_scripts', 'load_js');
  */
 add_theme_support('menus');
 
-/** 
- * Menus 
- */
+    // Menus 
+ 
 register_nav_menus(
     array(
         'top-menu' => 'Top Menu Location',
@@ -53,11 +52,63 @@ register_nav_menus(
     )
 );
 
-/**
- * Register Custom Navigation Walker (Bootstrap nav)
- */
+    // Register Custom Navigation Walker (Bootstrap nav)
+ 
 function register_navwalker(){
 	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
 
+/**
+ *  4- Woocommerce support
+ */
+
+function customtheme_add_woocommerce_support()
+{
+add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'customtheme_add_woocommerce_support' );
+
+
+
+/**
+ *  5- Remove options from woocommerce sort list
+ */
+
+add_filter( 'woocommerce_catalog_orderby', 'misha_remove_default_sorting_options' );
+ 
+function misha_remove_default_sorting_options( $options ){
+ 
+	unset( $options[ 'popularity' ] );
+	//unset( $options[ 'menu_order' ] );
+	//unset( $options[ 'rating' ] );
+	//unset( $options[ 'date' ] );
+	unset( $options[ 'price' ] );
+	unset( $options[ 'price-desc' ] );
+ 
+	return $options;
+ 
+}
+
+/**
+ *  6- Add order alphabetically to woocommerce sort list
+ */
+
+add_filter( 'woocommerce_get_catalog_ordering_args', 'custom_woocommerce_get_catalog_ordering_args' );
+
+function custom_woocommerce_get_catalog_ordering_args( $args ) {
+    $orderby_value = isset( $_GET['orderby'] ) ? woocommerce_clean( $_GET['orderby'] ) : apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby' ) );
+
+    if ( 'alphabetical' == $orderby_value ) {
+        $args['orderby'] = 'title';
+        $args['order'] = 'DESC';
+    }
+    return $args;
+}
+add_filter( 'woocommerce_default_catalog_orderby_options', 'custom_woocommerce_catalog_orderby' );
+add_filter( 'woocommerce_catalog_orderby', 'custom_woocommerce_catalog_orderby' );
+
+function custom_woocommerce_catalog_orderby( $sortby ) {
+    $sortby['alphabetical'] = __( 'Alphabetical' );
+    return $sortby;
+}

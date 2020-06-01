@@ -53,7 +53,7 @@
 	</div>
 
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-light" role="navigation">
+	<nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
 	<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<a class="navbar-brand" href="<?php echo home_url(); ?>">
