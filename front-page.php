@@ -9,25 +9,25 @@ get_header();?>
     <?php //get_template_part('includes/section', 'content') ?>
 </div> -->
 
-    <section class="container-fluid main">
-        <div class="row header-image">
-            <div class="container wrap-animation">
-                <div class="row">
-                    <div class="col-6 header-message">
-                        <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
-                        <div class="title-separator mt-4"></div>
-                        <div class="mt-4">
-                            <h3>
-                                <span class="header-sub-text">
-                                    Comprometidos con la salud de todos los colombianos
-                                </span>
-                            </h3>    
-                        </div>
+<section class="container-fluid main">
+    <div class="row header-image">
+        <div class="container wrap-animation">
+            <div class="row">
+                <div class="col-6 header-message">
+                    <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
+                    <div class="title-separator mt-4"></div>
+                    <div class="mt-4">
+                        <h3>
+                            <span class="header-sub-text">
+                                Comprometidos con la salud de todos los colombianos
+                            </span>
+                        </h3>    
                     </div>
-                </div>    
-            </div>
+                </div>
+            </div>    
         </div>
-    </section>
+    </div>
+</section>
 
 <section class="section-with-background background-redddb">
     <div class="container">

@@ -1,21 +1,23 @@
-$(document).ready(function(){
+/**
+ * Sticky menu
+ * */
 
-    var menu = $(window)
-    //menuTopPosition = menu.offset().top;
-    
-    
+$(document).ready(function(){
     $(window).bind('scroll', function() {
-        scrolling = menu.scrollTop();
-        console.log(scrolling)
-    var navHeight = $( window ).height();
           if ($(window).scrollTop() > 2) {
             $('.navbar').addClass('sticky');
-            //$('.top-bar').hide();
-            //$( ".nav-logo" ).css( {"max-height": "50px","padding": "0 0"  });
           }
           else {
               $('.navbar').removeClass('sticky');
-              //$('.top-bar').show();
           }
      });
  });
+
+ /**
+ * Preloader
+ * */
+$(window).on('load', function() { // makes sure the whole site is loaded
+    $('#status').fadeOut(); // will first fade out the loading animation
+    $('#preloader').delay(10).fadeOut(700 ); // will fade out the white DIV that covers the website.
+    $('body').delay(50).css({'overflow':'visible'});
+})

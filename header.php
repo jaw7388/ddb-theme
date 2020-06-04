@@ -18,7 +18,26 @@
 
 </head>
 <body>
-	
+
+<div id="preloader">
+		<div id="status">
+	  </div> 
+</div>
+
+<div class="preloader-wrapper big active">
+  <div class="spinner-layer spinner-red-only">
+    <div class="circle-clipper left">
+      <div class="circle"></div>
+    </div>
+    <div class="gap-patch">
+      <div class="circle"></div>
+    </div>
+    <div class="circle-clipper right">
+      <div class="circle"></div>
+    </div>
+  </div>
+</div>
+
 <header>
 		<div class="top-bar">
 			<div class="container d-flex justify-content-between align-items-center">
@@ -44,8 +63,7 @@
 				</div>
 				<div>
 					<span class="header-social">
-						<a href="https://www.facebook.com/ddboyaca" target="_blank"> <i class="fab fa-facebook-square"></i></a>
-						<a href="https://twitter.com/ddboyaca"  target="_blank"> <i class="fab fa-twitter-square"></i></a>
+						<a href="https://www.linkedin.com/company/dep%C3%B3sito-de-drogas-boyac%C3%A1/" target="_blank"><i class="fab fa-linkedin"></i></a>
 					</span>
 				</div>
 

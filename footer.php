@@ -50,8 +50,7 @@
         </div>
         <div class="row ">
             <div class="col-md-12 text-center social-footer">
-                <a href="https://www.facebook.com/ddboyaca" target="_blank"> <i class="fab fa-facebook-square"></i></a>
-                <a href="https://twitter.com/ddboyaca"  target="_blank"> <i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.linkedin.com/company/dep%C3%B3sito-de-drogas-boyac%C3%A1/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
         <div class="row footer-copyright">
@@ -59,12 +58,8 @@
                 © Copyright 2020 | DEPÓSITO DE DROGAS BOYACÁ | TODOS LOS DERECHOS RESERVADOS
             </div>
         </div>
-    </div>
-    
+    </div>    
 </footer>
-
-
-
 
 </body>
 </html>

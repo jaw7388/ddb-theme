@@ -41,8 +41,10 @@ add_action('wp_enqueue_scripts', 'load_js');
  *  3 - Register Menus
  */
 add_theme_support('menus');
+add_theme_support('post-thumbnails');
+add_theme_support('widgets');
 
-    // Menus 
+// Menus 
  
 register_nav_menus(
     array(
@@ -52,24 +54,65 @@ register_nav_menus(
     )
 );
 
-    // Register Custom Navigation Walker (Bootstrap nav)
+// Sidebars
+
+function my_sidebars(){
+    register_sidebar(
+        array(
+            'name' => 'Page Sidebar',
+            'id' => 'page-sidebar',
+            'before_title' => '<h4 class="widget-title"></h4>',
+            'after-title' => '</h4>',
+        )
+    );
+    register_sidebar(
+        array(
+            'name' => 'Blog Sidebar',
+            'id' => 'blog-sidebar',
+            'before_title' => '<h4 class="widget-title"></h4>',
+            'after-title' => '</h4>',
+        )
+    );
+}
+add_action('widgets_init', 'my_sidebars');
+
+// Register Custom Navigation Walker (Bootstrap nav)
  
 function register_navwalker(){
 	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 }
 add_action( 'after_setup_theme', 'register_navwalker' );
 
+/////////////////////////////////////////////////////////////////////////
 /**
  *  4- Woocommerce support
  */
 
-function customtheme_add_woocommerce_support()
-{
-add_theme_support( 'woocommerce' );
+remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
+add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
+add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
+
+function my_theme_wrapper_start() {
+    echo '<section id="main">';
 }
-add_action( 'after_setup_theme', 'customtheme_add_woocommerce_support' );
+function my_theme_wrapper_end() {
+    echo '</section>';
+}
 
 
+/**
+ * Change number or products per row to 3
+ */
+add_filter('loop_shop_columns', 'loop_columns', 999);
+if (!function_exists('loop_columns')) {
+	function loop_columns() {
+		return 4; // 3 products per row
+	}
+}
+
+add_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 9 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 10 );
 
 /**
  *  5- Remove options from woocommerce sort list
@@ -81,7 +124,7 @@ function misha_remove_default_sorting_options( $options ){
  
 	unset( $options[ 'popularity' ] );
 	//unset( $options[ 'menu_order' ] );
-	//unset( $options[ 'rating' ] );
+	unset( $options[ 'rating' ] );
 	//unset( $options[ 'date' ] );
 	unset( $options[ 'price' ] );
 	unset( $options[ 'price-desc' ] );
@@ -101,7 +144,7 @@ function custom_woocommerce_get_catalog_ordering_args( $args ) {
 
     if ( 'alphabetical' == $orderby_value ) {
         $args['orderby'] = 'title';
-        $args['order'] = 'DESC';
+        $args['order'] = 'ASC';
     }
     return $args;
 }
@@ -109,6 +152,6 @@ add_filter( 'woocommerce_default_catalog_orderby_options', 'custom_woocommerce_c
 add_filter( 'woocommerce_catalog_orderby', 'custom_woocommerce_catalog_orderby' );
 
 function custom_woocommerce_catalog_orderby( $sortby ) {
-    $sortby['alphabetical'] = __( 'Alphabetical' );
+    $sortby['alphabetical'] = __( 'Orden alfabético' );
     return $sortby;
 }
