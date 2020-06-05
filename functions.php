@@ -155,3 +155,7 @@ function custom_woocommerce_catalog_orderby( $sortby ) {
     $sortby['alphabetical'] = __( 'Orden alfabético' );
     return $sortby;
 }
+
+//Mostrar Añadir al carrito
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 20 );

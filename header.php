@@ -63,7 +63,7 @@
 				</div>
 				<div>
 					<span class="header-social">
-						<a href="https://www.linkedin.com/company/dep%C3%B3sito-de-drogas-boyac%C3%A1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+						<?php echo do_shortcode('[wcas-search-form]'); ?>
 					</span>
 				</div>
 
