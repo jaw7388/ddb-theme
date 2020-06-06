@@ -182,3 +182,20 @@ add_filter( 'woocommerce_product_add_to_cart_text', function( $text ) {
 
     return $text;
 } );
+
+
+/**
+ *Cloud tag 
+ */
+
+add_filter('woocommerce_product_tag_cloud_widget_args', 'nwb_woo_tag_cloud_filter');
+function nwb_woo_tag_cloud_filter($args) {
+	$args = array(
+		'smallest' => 14, 
+		'largest' => 14, 
+		'format' => 'list', 
+		'taxonomy' => 'product_tag', 
+		'unit' => 'px', 
+		);
+	return $args;
+}

@@ -758,6 +758,29 @@ footer .footer-copyright {
   font-weight: 700;
 }
 
+/**
+* --------------Tag List
+*/
+
+.widget_product_tag_cloud {
+  font-size: 1.5em;
+  list-style: none;
+}
+
+.widget_product_tag_cloud .tagcloud ul {
+  list-style: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.widget_product_tag_cloud .tagcloud ul li {
+  line-height: 1em;
+}
+
+.widget_product_tag_cloud a {
+  color: #1AA9B8;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
