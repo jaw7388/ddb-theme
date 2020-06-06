@@ -2,9 +2,24 @@
     
     margin-top: 2em;
     h1{
-        font-size: 2em;
-        color: #b70817;
+        font-size: 1.5em;
+        font-weight: 700;
     }
-
-
+    .product_meta{
+        .posted_in{
+            display: block;      
+        }      
+        span{
+            font-weight: 700;
+            a{
+                color: $grayDdb ;
+            }
+        }
+    }
+}
+.button.single_add_to_cart_button.button.alt {
+    background-color: $redDdb;
+    &:hover{
+        background-color: #1AA9B8;
+    }
 }

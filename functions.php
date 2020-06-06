@@ -156,6 +156,29 @@ function custom_woocommerce_catalog_orderby( $sortby ) {
     return $sortby;
 }
 
-//Mostrar Añadir al carrito
+/**
+ * Change position price on single-product
+ */
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 20 );
+
+/**
+ * Change the breadcrumb separator
+ */
+add_filter( 'woocommerce_breadcrumb_defaults', 'wcc_change_breadcrumb_delimiter' );
+function wcc_change_breadcrumb_delimiter( $defaults ) {
+	// Change the breadcrumb delimeter from '/' to '>'
+	$defaults['delimiter'] = ' &gt; ';
+	return $defaults;
+}
+
+/**
+ * Change text of product button on shop page 
+ */
+add_filter( 'woocommerce_product_add_to_cart_text', function( $text ) {
+    if ( 'Read more' == $text ) {
+        $text = __( 'Ver', 'woocommerce' );
+    }
+
+    return $text;
+} );

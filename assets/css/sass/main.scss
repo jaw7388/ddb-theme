@@ -4,6 +4,8 @@
 @import 'components/front-page';
 @import 'components/page';
 @import 'components/contact';
+@import 'components/woocommerce/single-product';
+@import 'components/woocommerce/shop';
 
 body{
     font-family: 'Lato', sans-serif;
@@ -30,3 +32,11 @@ body{
         }
   }
 
+.woocommerce-breadcrumb{
+    border-bottom: 1px solid $redDdb;
+    padding: 0px 5px 20px;
+    color: $redDdb;
+    a{
+        color: $grayDdb !important;
+    }
+}
