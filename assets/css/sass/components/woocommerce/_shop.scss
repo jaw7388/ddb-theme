@@ -5,10 +5,11 @@
             border: 1px solid #e2e2e2;
             padding: 11px 15px 14px 10px !important;
             transition: box-shadow 0.3s;
-            //transition: transform 0.5s;
+            transition: border 0.3s;
 
 
             &:hover{
+                border: 1px solid $redDdb;
                 -webkit-box-shadow: 0px 5px 13px -4px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0px 5px 13px -4px rgba(0,0,0,0.75);
                 box-shadow: 0 0 11px rgba(33,33,33,.2); 
@@ -26,3 +27,11 @@
         }
     }
 }
+
+.woocommerce-billing-fields .form-row, .woocommerce-shipping-fields .form-row,.woocommerce form .form-row {
+    display: block;
+    }
+     
+    .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1,.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    max-width: unset;
+    }

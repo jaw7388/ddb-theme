@@ -16,7 +16,7 @@
     position:absolute;
     left:45%; /* centers the loading animation horizontally one the screen */
     top:45%; /* centers the loading animation vertically one the screen */
-    background-image:url("http://localhost/ddb/spinner/");
+    background-image:url("http://ddb.test/wp-content/uploads/2020/06/spinner.gif");
     z-index:9999; /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
@@ -30,7 +30,7 @@
     width: 100% ;
     top: 0;
     transition: background-color 0.7s ease;
-    background: #3a3939  !important;
+    background: $blackDdb  !important;
     
     .container {
         .collapse{

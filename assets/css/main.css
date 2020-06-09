@@ -20,7 +20,7 @@
   /* centers the loading animation horizontally one the screen */
   top: 45%;
   /* centers the loading animation vertically one the screen */
-  background-image: url("http://localhost/ddb/spinner/");
+  background-image: url("http://ddb.test/wp-content/uploads/2020/06/spinner.gif");
   z-index: 9999;
   /* path to your loading animation */
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@
   width: 100%;
   top: 0;
   transition: background-color 0.7s ease;
-  background: #3a3939 !important;
+  background: #222 !important;
 }
 
 .sticky .container .collapse nav > ul > li:not(:last-child) > a {
@@ -248,7 +248,7 @@ header .navbar .dropdown-menu .dropdown-menu {
 }
 
 footer {
-  background: #170002;
+  background: #222;
   padding: 3em 0em;
   color: #ffffff;
   padding-bottom: 1em;
@@ -339,13 +339,24 @@ footer .footer-copyright {
 
 .header-image {
   background-color: rgba(255, 255, 255, 0);
-  background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://static9.depositphotos.com/1258191/1223/i/950/depositphotos_12233276-stock-photo-pharmacist-reaching-for-medicine.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
   height: 100vh;
+}
+
+.slider-image-1 {
+  background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://static9.depositphotos.com/1258191/1223/i/950/depositphotos_12233276-stock-photo-pharmacist-reaching-for-medicine.jpg);
+}
+
+.slider-image-2 {
+  background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://static9.depositphotos.com/1258191/1223/i/950/depositphotos_12233276-stock-photo-pharmacist-reaching-for-medicine.jpg);
+}
+
+.slider-image-3 {
+  background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://static9.depositphotos.com/1258191/1223/i/950/depositphotos_12233276-stock-photo-pharmacist-reaching-for-medicine.jpg);
 }
 
 .header-sub-text {
@@ -742,9 +753,11 @@ footer .footer-copyright {
   border: 1px solid #e2e2e2;
   padding: 11px 15px 14px 10px !important;
   transition: box-shadow 0.3s;
+  transition: border 0.3s;
 }
 
 .woocommerce .products .product:hover {
+  border: 1px solid #b70817;
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
@@ -756,6 +769,19 @@ footer .footer-copyright {
   font-size: 0.8em !important;
   color: #646464;
   font-weight: 700;
+}
+
+.woocommerce-billing-fields .form-row,
+.woocommerce-shipping-fields .form-row,
+.woocommerce form .form-row {
+  display: block;
+}
+
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+  max-width: unset;
 }
 
 /**

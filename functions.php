@@ -199,3 +199,30 @@ function nwb_woo_tag_cloud_filter($args) {
 		);
 	return $args;
 }
+
+
+/*
+* HABILITAR CANTIDAD MÍNIMA DE PEDIDO
+*/
+function woo_minimum_order_amount() {
+    $minimum = 30000;  // Modificar 10 por el importe mínimo de compra
+    if ( WC()->cart->total < $minimum ) {
+      if( is_cart() ) {
+        wc_print_notice(
+        sprintf( 'Debes realizar un pedido m&iacute;nimo de %s para finalizar tu compra.' , // Personalizar texto
+          wc_price( $minimum ),
+          wc_price( WC()->cart->total )
+        ), 'error'
+        );
+      } else {
+        wc_add_notice(
+        sprintf( 'Debes realizar un pedido m&iacute;nimo de %s para finalizar tu compra.' , // Personalizar texto
+          wc_price( $minimum ), 
+          wc_price( WC()->cart->total )
+        ), 'error'
+        );
+      }
+    }
+  }
+  add_action( 'woocommerce_checkout_process', 'woo_minimum_order_amount' );
+  add_action( 'woocommerce_before_cart' , 'woo_minimum_order_amount' );
