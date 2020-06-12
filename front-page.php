@@ -14,13 +14,58 @@ get_header('test');?>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="http://ddb.test/wp-content/uploads/2020/06/DDB_front-page2.jpg" class="d-block w-100" alt="...">
+        <img src="wp-content/uploads/2020/06/Sin-título-1.jpg" class="d-block w-100" alt="...">
+        <div class="container wrap-animation">
+                <div class="row">
+                    <div class="col-4 header-message">
+                        <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
+                        <div class="title-separator mt-4"></div>
+                        <div class="mt-4">
+                            <h3>
+                                <span class="header-sub-text">
+                                    Comprometidos con la salud de todos los colombianos
+                                </span>
+                            </h3>    
+                        </div>
+                    </div>
+                </div>    
+            </div>
         </div>
         <div class="carousel-item">
-        <img src="http://ddb.test/wp-content/uploads/2020/06/DDB_front-page2.jpg" class="d-block w-100" alt="...">
+        <img src="wp-content/uploads/2020/06/Sin-título-1.jpg" class="d-block w-100" alt="...">
+        <div class="container wrap-animation">
+                <div class="row">
+                    <div class="col-4 header-message">
+                        <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
+                        <div class="title-separator mt-4"></div>
+                        <div class="mt-4">
+                            <h3>
+                                <span class="header-sub-text">
+                                    Comprometidos con la salud de todos los colombianos
+                                </span>
+                            </h3>    
+                        </div>
+                    </div>
+                </div>    
+            </div>
         </div>
         <div class="carousel-item">
-        <img src="http://ddb.test/wp-content/uploads/2020/06/DDB_front-page2.jpg" class="d-block w-100" alt="...">
+        <img src="wp-content/uploads/2020/06/Sin-título-1.jpg" class="d-block w-100" alt="...">
+        <div class="container wrap-animation">
+                <div class="row">
+                    <div class="col-4 header-message">
+                        <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
+                        <div class="title-separator mt-4"></div>
+                        <div class="mt-4">
+                            <h3>
+                                <span class="header-sub-text">
+                                    Comprometidos con la salud de todos los colombianos
+                                </span>
+                            </h3>    
+                        </div>
+                    </div>
+                </div>    
+            </div>
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

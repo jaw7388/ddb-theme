@@ -12,39 +12,31 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
+                <h5>Certificaciones</h5>
                 <div class="footer-logo">
-                    <a href="<?php echo home_url(); ?>">
-                        <img src="<?php echo(get_site_url() . '/wp-content/uploads/2020/05/ddb-logo_blanco.png');?>" alt="" class="footer-logo">
-                    </a>    
+                        <img src="<?php echo(get_site_url() . '/wp-content/uploads/2020/06/Bureau-veritas-C0240563.png');?>" alt="" class="footer-logo">
                 </div>
             </div>
-            <div class="col-md-3">
-                <h5>Correo electrónico</h5>
+            
+            <div class="col-md-4">
+                <h5>Mapa del sitio</h5>
                 <ul>
-                    <li><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
-                    <li><a href="mailto:contacto@ddb.com.co">contacto@ddb.com.co</a></li>
-                    <li><a href="mailto:ventas@ddb.com.co">ventas@ddb.com.co</a></li>
+                    <li>
+                        <a href=""></a>
+                    </li>
                 </ul>
             </div>
-            <div class="col-md-3">
-                <h5>Dirección</h5>
-                <a href="https://www.google.com/maps/place/Parque+Empresarial+Puerta+del+Sol/@4.6861636,-74.1238557,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9b451d6a85f3:0x7213b2e152566ddf!8m2!3d4.6861583!4d-74.121667" target="_blank">
-                    <i class="fas fa-map-marker-alt"></i>
-                    Transversal 93 # 51-98 
-                    Parque Empresarial Puerta del Sol Bodega 18  (Bogotá-Colombia)
-                </a>
-                <div>
-                    <i class="far fa-clock"></i>
-					Mar - Sab 7am - 4pm
-                </div>
-            </div>
-            <div class="col-md-3">
-                <h5>Teléfono</h5>
+            <div class="col-md-4">
+                <h5>Contacto</h5>
                 <ul>
-                    <li><a href="tel:(1)7432597">(1) 743 25 97</a></li>
-                    <li><a href="tel:(310) 864 93 72">(310) 864 93 72</a></li>
-                    <li><a href="tel:(300) 748 42 72">(300) 748 42 72</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Parque+Empresarial+Puerta+del+Sol/@4.6861636,-74.1238557,17z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9b451d6a85f3:0x7213b2e152566ddf!8m2!3d4.6861583!4d-74.121667" target="_blank">
+                            Transversal 93 # 51-98 
+                            Parque Empresarial Puerta del Sol Bodega 18  . Bogotá-Colombia</a>
+                    </li>
+                    <li><i class="far fa-clock"></i>Mar - Sab 7am - 4pm</li>
+                    <li><i class="fas fa-phone"></i><a href="tel:(1)7432597">(1) 743 25 97</a></li>
+                    <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
                 </ul>
             </div>
         </div>

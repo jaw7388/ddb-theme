@@ -38,7 +38,7 @@
   </div>
 </div>
 
-<header>
+<header class="header">
 		<div class="top-bar">
 			<div class="container d-flex justify-content-between align-items-center">
 				<div>

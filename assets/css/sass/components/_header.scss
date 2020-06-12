@@ -266,18 +266,26 @@ header{
     width: 100%;
     padding-left: 2em;
     padding-right: 2em;
+    box-shadow: 0px 6px 11px rgba(33, 33, 33, 0.53);
     z-index: 999;
+
+    .header-brand{
+        text-align: center;
+        background: #f5f5f5;
+        margin: 0em -1.9em;
+    }
+    .nav-logo{
+        transition: max-height 0.2s ease-in;
+        max-height: 70px;
+        margin: 0.5em 0;
+    }
 
     .navbar{
         transition: background-color 0.7s ease;
         //background-color: #ffffff;
         margin: 0 -2em;
         padding: 0 1em;
-        .nav-logo{
-            transition: max-height 0.2s ease-in;
-            max-height: 90px;
-            margin: 0.5em 0;
-        }
+        
         .navbar-nav {
             .current-menu-item:not(:last-child) {
                 a{
@@ -292,7 +300,7 @@ header{
                 font-size: 0.8em;
                 line-height: 1;
                 text-transform: uppercase;
-                padding: 3.5em 1em;
+                padding: 2em 1em;
                 transition: 0.5s;
                 
                 &:hover{
@@ -347,15 +355,15 @@ header{
                 &:last-child{
                     display: flex;
                     align-items: center;
-                    padding-left: 1em;
+                    padding-left: 0em !important;
                     a{
-                        padding: 1.2em 2em;
-                        background-image: linear-gradient(to top,$redDdb,#a5010f);
-                        color: #ffffff;
+                        //padding: 1.2em 2em;
+                        background-image: none;
+                        //color: #ffffff;
                         
                         &:hover{
-                            color: #ffffff !important ;
-                            background-image: linear-gradient(to bottom,$redDdb,#a5010f);
+                            color: $redDdb !important ;
+                            background-image: none;
                         }
                     }
                 }
@@ -398,15 +406,15 @@ header{
 }
 
 .top-bar-test{
-    background: #ffffff ;
-    color: #000000;
+    background: $redDdb ;
+    color: #ffffff;
     margin: 0 -3em;
     font-size: 0.8em;
     padding: 1em 2em 1em 0em;
-    border-bottom: 0.5px solid #000000;
+    border-bottom: 0.5px solid #e0e0e0;
 
     a{
-        color: #000000;
+        color: #ffffff;
         text-decoration: none;
 
         &:hover{
@@ -415,7 +423,7 @@ header{
     }
     
     i{
-        color: $redDdb;
+        color: #ffffff;
         margin-right: 3px;
     }
 
@@ -430,4 +438,14 @@ header{
         }
     }
 
+}
+
+.sticky-test {
+    position: fixed ;
+    width: 100% ;
+    top: 0;
+    //transition: background-color 0.7s ease;
+    background: #ffffff  !important;
+    
+    
 }

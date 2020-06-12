@@ -29,6 +29,10 @@
         -ms-animation: fadein 1.5s; /* Internet Explorer */
         -o-animation: fadein 1.5s; /* Opera < 12.1 */
         animation: fadein 1.5s;
+        animation: fadein 1.5s;
+    position: absolute;
+    top: 110px;
+    right: 10px;
         
         // -webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         // animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -68,11 +72,12 @@
     }
 
     .header-message{
-        padding: 250px 0px 70px;
+        //padding: 250px 0px 70px;
         background-position: left top;
         background-repeat: no-repeat;
         background-size: cover;
         height: auto;
+        color: #ffffff;
 
         h1{
             font-family: Lato;

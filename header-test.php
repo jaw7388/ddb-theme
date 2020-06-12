@@ -31,7 +31,7 @@
 
 <header class="header-test">
 		<div class="top-bar-test">
-			<div class="container d-flex justify-content-between align-items-center">
+			<div class="container d-flex justify-content-center align-items-center">
 				<div>
 					<span class="pr-3">
 						<i class="far fa-clock"></i>
@@ -52,30 +52,30 @@
 						</a>
 					</span>
 				</div>
-				<div>
-					<span class="header-social">
-						<?php echo do_shortcode('[wcas-search-form]'); ?>
-					</span>
-				</div>
+				
 
 			</div>
 	</div>
 
 
+	<div class="header-brand">
+		<a class="navbar-brand" href="<?php echo home_url(); ?>">
+			<img src="<?php echo(get_site_url() . '/wp-content/uploads/2020/06/ddb_logo.png');?>" alt="" class="nav-logo">
+		</a>
+	</div>
 	<nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
-	<div class="container">
+    
+	<div class="container d-flex justify-content-center">
 			<!-- Brand and toggle get grouped for better mobile display -->
-			<a class="navbar-brand" href="<?php echo home_url(); ?>">
-				<img src="<?php echo(get_site_url() . '/wp-content/uploads/2020/06/deposito-de-drogas-Boyaca-logo.png');?>" alt="" class="nav-logo">
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation"> 
+			
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation"> 
 			<span class="navbar-toggler-icon"></span>
 
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
 			
-			</button>
+		</button>
 			<div class="collapse navbar-collapse flex-grow-0" id="bs-example-navbar-collapse-1">
 				<?php
 				wp_nav_menu( array(
@@ -89,9 +89,11 @@
 					'walker'            => new WP_Bootstrap_Navwalker(),
 				));
 				?>
-		</div>
+			</div>		</div>
 		</div>
 	</nav>
 
 		
 </header>
+
+

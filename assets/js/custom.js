@@ -5,10 +5,14 @@
 $(document).ready(function(){
     $(window).bind('scroll', function() {
           if ($(window).scrollTop() > 2) {
-            $('.navbar').addClass('sticky');
+            $('.header .navbar').addClass('sticky');
+          }
+          if ($(window).scrollTop() > 150) {
+            $('.header-test .navbar').addClass('sticky-test');
           }
           else {
-              $('.navbar').removeClass('sticky');
+              $('.header .navbar').removeClass('sticky');
+              $('.header-test .navbar').removeClass('sticky-test');
           }
      });
  });
