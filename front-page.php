@@ -1,6 +1,6 @@
 <?php
 
-get_header('test');?>
+get_header();?>
 
 <!-- <div class="container">
     <h1>
@@ -9,12 +9,12 @@ get_header('test');?>
     <?php //get_template_part('includes/section', 'content') ?>
 </div> -->
 
-<section class="container-fluid main">
+<section class="container-fluid main slider-main">
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="wp-content/uploads/2020/06/Sin-título-1.jpg" class="d-block w-100" alt="...">
+        <img src="wp-content/uploads/2020/06/Sin-título-3.jpg" class="d-block w-100" alt="...">
         <div class="container wrap-animation">
                 <div class="row">
                     <div class="col-4 header-message">
@@ -32,7 +32,7 @@ get_header('test');?>
             </div>
         </div>
         <div class="carousel-item">
-        <img src="wp-content/uploads/2020/06/Sin-título-1.jpg" class="d-block w-100" alt="...">
+        <img src="wp-content/uploads/2020/06/Sin-título-3.jpg" class="d-block w-100" alt="...">
         <div class="container wrap-animation">
                 <div class="row">
                     <div class="col-4 header-message">
@@ -50,7 +50,7 @@ get_header('test');?>
             </div>
         </div>
         <div class="carousel-item">
-        <img src="wp-content/uploads/2020/06/Sin-título-1.jpg" class="d-block w-100" alt="...">
+        <img src="wp-content/uploads/2020/06/Sin-título-3.jpg" class="d-block w-100" alt="...">
         <div class="container wrap-animation">
                 <div class="row">
                     <div class="col-4 header-message">
