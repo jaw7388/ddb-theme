@@ -20,10 +20,19 @@
             </div>
             
             <div class="col-md-4">
-                <h5>Mapa del sitio</h5>
+                <h5>Acceso rapido</h5>
                 <ul>
                     <li>
-                        <a href=""></a>
+                        <a href="">Medicamentos</a>
+                    </li>
+                    <li>
+                        <a href="">Dispositivos médicos</a>
+                    </li>
+                    <li>
+                        <a href="">Kits</a>
+                    </li>
+                    <li>
+                        <a href="">Contacto</a>
                     </li>
                 </ul>
             </div>

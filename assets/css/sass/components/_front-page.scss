@@ -11,8 +11,17 @@
         color: #ffffff;
         height: 100vh;
     }
+
+ 
     .slider-image-1{
         background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://static9.depositphotos.com/1258191/1223/i/950/depositphotos_12233276-stock-photo-pharmacist-reaching-for-medicine.jpg);
+        background-color: rgba(255, 255, 255, 0);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #ffffff;
+        height: 60vh;
     }
     .slider-image-2{
         background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%), url(https://static9.depositphotos.com/1258191/1223/i/950/depositphotos_12233276-stock-photo-pharmacist-reaching-for-medicine.jpg);
@@ -144,8 +153,37 @@
         }
     }
 
-    .section-without-background{
+    .section-main-products{
         padding: 3em 0em;
+        background-image: url(http://localhost/ddb/wp-content/uploads/2020/06/fondo-productos.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        .portfolio-main-sections-text{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 23%;
+            text-align: center;
+            background: rgba(31, 31, 31, 0.7);
+            transition: height 0.2s ease-out; 
+            color: #ffffff;
+
+            
+        }
+
+        .portfolio-main-sections-img {
+            position: relative;
+            overflow: hidden;
+
+            &:hover > .portfolio-main-sections-text {
+                height: 100%;
+            }
+        }
+       
 
         h3{
             font-size: 2em;

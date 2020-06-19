@@ -90,6 +90,11 @@
 				));
 				?>
 				
+				<div>
+					<span class="search-button-main d-flex align-items-center justify-content-center">
+					<i class="fas fa-search"></i>
+					</span>
+				</div>
 				
 			</div>
 			<div id="search-form-main">

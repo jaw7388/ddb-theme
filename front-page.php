@@ -13,8 +13,8 @@ get_header();?>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active">
-        <img src="wp-content/uploads/2020/06/Sin-título-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-item slider-image-1 active">
+        <!-- <img src="wp-content/uploads/2020/06/manos-barcode.png" class="d-block w-100" alt="..."> -->
         <div class="container wrap-animation">
                 <div class="row">
                     <div class="col-4 header-message">
@@ -32,7 +32,7 @@ get_header();?>
             </div>
         </div>
         <div class="carousel-item">
-        <img src="wp-content/uploads/2020/06/Sin-título-3.jpg" class="d-block w-100" alt="...">
+        <img src="wp-content/uploads/2020/06/manos-barcode.png" class="d-block w-100" alt="...">
         <div class="container wrap-animation">
                 <div class="row">
                     <div class="col-4 header-message">
@@ -50,7 +50,7 @@ get_header();?>
             </div>
         </div>
         <div class="carousel-item">
-        <img src="wp-content/uploads/2020/06/Sin-título-3.jpg" class="d-block w-100" alt="...">
+        <img src="wp-content/uploads/2020/06/manos-barcode.png" class="d-block w-100" alt="...">
         <div class="container wrap-animation">
                 <div class="row">
                     <div class="col-4 header-message">
@@ -90,7 +90,7 @@ get_header();?>
             Nos especializamos en la comercialización y distribución de productos farmacéuticos éticos y genéricos, dispositivos médicos y kits institucionales a entidades estatales y privadas
             </p>
         </div>
-        <div class="row mt-5">
+        <div class="row">
             <div class="col-md-3 text-center border-right border-light service">
                 <i class="far fa-clock"></i>
                 <div class="mt-3"></div>
@@ -119,37 +119,52 @@ get_header();?>
     </div>
 </section>
 
-<section class="section-without-background">
+<section class="section-main-products">
     <div class="container">
-        <div class="row d-flex justify-content-center text-center">
-            <div class="col-md-12 text-center">
-                <h3>Productos</h3>
-            </div>    
-        </div>
-        <div class="row mt-5">
-            <div class="col-md-4 text-center home-products-wraper">
-                <a href="<?php echo(get_site_url() . '/productos#medicamentos');?>">
-                    <img src="wp-content/uploads/2020/05/medicamentos.jpg" alt="">
-                    <div class="mt-3"></div>
-                    <h4>MEDICAMENTOS</h4>
-                    Productos farmaceúticos, éticos y genéricos con el respaldo de los mejores laboratorios
-                </a>
-            </div>
-            <div class="col-md-4 text-center home-products-wraper">
-                <a href="<?php echo(get_site_url() . '/productos#kits');?>">
-                    <img src="wp-content/uploads/2020/05/dispositivos.jpg" alt="">
-                    <div class="mt-3"></div>
-                    <h4>DISPOSITIVOS MÉDICOS</h4>
-                    Dispositivos médicos de alta calidad. Canales de distribución y asesoría en calidad
-                </a>
-            </div>
-            <div class="col-md-4 text-center home-products-wraper">
-                <a href="<?php echo(get_site_url() . '/productos#kits');?>">
-                    <img src="wp-content/uploads/2020/05/kits.jpg" alt=""> 
-                    <div class="mt-3"></div>
-                    <h4>KITS</h4>
-                    Kits de emergencia materna, Kits de violencia sexual a menores y adultos, Kits de glucometría
-                </a>
+        <div class="row">
+            <div class="col-md-8 offset-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Conoce nuestro <span class="redDdb-text">portafolio de productos</span></h2>
+                        <div class="portafolio-button mt-3">
+                            <a href="">
+                                <img src="wp-content/uploads/2020/06/boton-portafolio.jpg" alt="" class="w-100">
+                            </a>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4">
+                        <a href="">
+                            <div class="portfolio-main-sections-img">
+                                <img src="wp-content/uploads/2020/06/medicamentos-300.jpg" alt="" class="w-100">
+                                <div class="portfolio-main-sections-text d-flex justify-content-center align-items-center">
+                                    <h5>Medicamentos</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="">
+                            <div class="portfolio-main-sections-img">
+                                <img src="wp-content/uploads/2020/06/dispositivos-medicos-300.jpg" alt="" class="w-100">
+                                <div class="portfolio-main-sections-text d-flex justify-content-center align-items-center">
+                                    <h5>Dispositivos médicos</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="">
+                            <div class="portfolio-main-sections-img">
+                                <img src="wp-content/uploads/2020/06/kits-300.jpg" alt="" class="w-100">
+                                <div class="portfolio-main-sections-text d-flex justify-content-center align-items-center">
+                                    <h5>Kits</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

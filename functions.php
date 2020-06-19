@@ -88,21 +88,9 @@ add_action( 'after_setup_theme', 'register_navwalker' );
  *  4- Woocommerce support
  */
 
-remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
-remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
-add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
-add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
-
-function my_theme_wrapper_start() {
-    echo '<section id="main">';
-}
-function my_theme_wrapper_end() {
-    echo '</section>';
-}
-
 
 /**
- * Change number or products per row to 3
+ * Change number or products per row 
  */
 add_filter('loop_shop_columns', 'loop_columns', 999);
 if (!function_exists('loop_columns')) {
@@ -112,7 +100,7 @@ if (!function_exists('loop_columns')) {
 }
 
 add_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 9 );
-add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 10 );
+//add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 10 );
 
 /**
  *  5- Remove options from woocommerce sort list
@@ -170,34 +158,6 @@ function wcc_change_breadcrumb_delimiter( $defaults ) {
 	// Change the breadcrumb delimeter from '/' to '>'
 	$defaults['delimiter'] = ' &gt; ';
 	return $defaults;
-}
-
-/**
- * Change text of product button on shop page 
- */
-add_filter( 'woocommerce_product_add_to_cart_text', function( $text ) {
-    if ( 'Read more' == $text ) {
-        $text = __( 'Ver', 'woocommerce' );
-    }
-
-    return $text;
-} );
-
-
-/**
- *Cloud tag 
- */
-
-add_filter('woocommerce_product_tag_cloud_widget_args', 'nwb_woo_tag_cloud_filter');
-function nwb_woo_tag_cloud_filter($args) {
-	$args = array(
-		'smallest' => 14, 
-		'largest' => 14, 
-		'format' => 'list', 
-		'taxonomy' => 'product_tag', 
-		'unit' => 'px', 
-		);
-	return $args;
 }
 
 

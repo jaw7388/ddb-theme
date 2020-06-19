@@ -20,6 +20,13 @@ footer{
             background: $redDdb;
         }
     }
+
+    h5{
+        border-bottom: 1px solid;
+        padding-bottom: 0.5em;
+        font-weight: bold;
+    }
+
     p{
         line-height: 1.5;
         font-weight: 400;
@@ -44,6 +51,8 @@ footer{
     li{
         //text-decoration: none;
         list-style: none;
+        padding: 0.5em 0em;
+
     }
     a{
         color: #ffffff;

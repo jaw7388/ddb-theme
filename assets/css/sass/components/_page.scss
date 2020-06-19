@@ -1,10 +1,23 @@
+// .hero-image-header{
+//     background-color: rgba(255, 255, 255, 0);
+//     background-image: url('http://localhost/ddb/wp-content/uploads/2020/06/Sin-título-2.jpg');
+//     background-position: center center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-attachment: fixed;
+//     color: #ffffff;
+//     height: 40vh;
+//     margin-bottom: 2em;
+// }
+
 .page-hero-text{
-    padding: 200px 0px 70px;
+    padding: 50px 0px 70px;
     background-position: left top;
     height: auto;
     h1{
-        font-size: 2em;
+        font-size: 3em;
         text-transform: uppercase;
+        font-weight: 700;
         &:after{
             transform: translateX(-50%);
             content: '';

@@ -5,27 +5,9 @@ Template Name: Trabaje con nosotros
 */
 
 get_header();
+get_template_part( 'template-parts/section', 'hero' );
 ?>
-<!-- Hero section -->
-<div style="
-background-color: rgba(255, 255, 255, 0);
-background-image: linear-gradient(130deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.4) 100%), url(http://ddb.test/wp-content/uploads/2020/06/Deposito-de-drogas-boyaca_empleados.jpg);
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-color: #ffffff;
-height: 60vh;
-margin-bottom: 2em;">
-    <div class="d-flex justify-content-center page-hero-text">
-        <div class="row">
-            <div class="col-md-12">
-                <h1><?php the_title(); ?></h1>
-            </div>    
-        </div>
-    </div>
-</div>
-<!-- End Hero section -->
+
 
 <section class="section-without-background">
     <div class="container">
