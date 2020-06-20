@@ -4,6 +4,8 @@
 @import 'components/front-page';
 @import 'components/page';
 @import 'components/contact';
+@import 'components/sprites';
+
 @import 'components/woocommerce/single-product';
 @import 'components/woocommerce/shop';
 @import 'components/woocommerce/widgets';
@@ -32,15 +34,6 @@ body{
         -moz-transform: scale(1.1);
         }
   }
-
-.woocommerce-breadcrumb{
-    border-bottom: 1px solid $redDdb;
-    padding: 0px 5px 20px;
-    color: $redDdb;
-    a{
-        color: $grayDdb !important;
-    }
-}
 
 .redDdb-text{
     color: $redDdb;

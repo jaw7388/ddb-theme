@@ -1,7 +1,7 @@
 <?php
 /*
 *
-Template Name: Trabaje con nosotros
+Template Name: Trabaja con nosotros
 */
 
 get_header();
@@ -9,16 +9,19 @@ get_template_part( 'template-parts/section', 'hero' );
 ?>
 
 
-<section class="section-without-background">
+<section class="mb-5 mt-5">
     <div class="container">
-
-        <h1 class="text-center mb-5">
-            Preguntas, dudas o sugerencias
-        </h1>
-        <p class="text-center mb-5">Responderemos sus requerimientos a la brevedad</p>
         <div class="row">
-            <div class="col-md-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4809669830456!2d-74.12385568523767!3d4.686158296596175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b451d6a85f3%3A0x7213b2e152566ddf!2sParque%20Empresarial%20Puerta%20del%20Sol!5e0!3m2!1ses-419!2sco!4v1590555054990!5m2!1ses-419!2sco" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="section-trabaja-con-nosotros">
+                <p class="text-justify mr-3 ml-3 mb-5">Si quieres hacer parte de nuestro equipo de trabajo, registra tu hoja de vida y estaremos en contacto según la disponibilidad de nuestras vacantes</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 ">
+                
+                <div>
+                   <img src="http://localhost/ddb/wp-content/uploads/2020/06/trabaja-con-nosotros-1.jpg" alt="" class="w-100">
+                </div>
             </div>
             <div class="col-md-6">
                 <?php echo do_shortcode('[contact-form-7 id="168" title="Contact form 1"]'); ?>

@@ -28,6 +28,15 @@
     }
 }
 
+.woocommerce-breadcrumb{
+    font-size: 0.8em;
+    padding: 10px 5px 20px;
+    color: $grayDdb;
+    a{
+        color: $grayDdb !important;
+    }
+}
+
 .woocommerce-billing-fields .form-row, .woocommerce-shipping-fields .form-row,.woocommerce form .form-row {
     display: block;
 }

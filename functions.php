@@ -100,7 +100,7 @@ if (!function_exists('loop_columns')) {
 }
 
 add_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 9 );
-//add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 10 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 10 );
 
 /**
  *  5- Remove options from woocommerce sort list
@@ -160,7 +160,6 @@ function wcc_change_breadcrumb_delimiter( $defaults ) {
 	return $defaults;
 }
 
-
 /*
 * HABILITAR CANTIDAD MÍNIMA DE PEDIDO
 */
@@ -186,3 +185,15 @@ function woo_minimum_order_amount() {
   }
   add_action( 'woocommerce_checkout_process', 'woo_minimum_order_amount' );
   add_action( 'woocommerce_before_cart' , 'woo_minimum_order_amount' );
+
+
+/*
+* Change product button on shop - text 
+*/
+  add_filter( 'woocommerce_product_add_to_cart_text', function( $text ) {
+    if ( 'Read more' == $text ) {
+        $text = __( 'More Info', 'woocommerce' );
+    }
+
+    return $text;
+} );

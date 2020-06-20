@@ -14,8 +14,7 @@ get_header();?>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item slider-image-1 active">
-        <!-- <img src="wp-content/uploads/2020/06/manos-barcode.png" class="d-block w-100" alt="..."> -->
-        <div class="container wrap-animation">
+            <div class="container wrap-animation">
                 <div class="row">
                     <div class="col-4 header-message">
                         <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
@@ -31,9 +30,8 @@ get_header();?>
                 </div>    
             </div>
         </div>
-        <div class="carousel-item">
-        <img src="wp-content/uploads/2020/06/manos-barcode.png" class="d-block w-100" alt="...">
-        <div class="container wrap-animation">
+        <div class="carousel-item slider-image-1 ">
+            <div class="container wrap-animation">
                 <div class="row">
                     <div class="col-4 header-message">
                         <h1>NUESTRO TRABAJO SALVA VIDAS</h1>
@@ -48,10 +46,8 @@ get_header();?>
                     </div>
                 </div>    
             </div>
-        </div>
-        <div class="carousel-item">
-        <img src="wp-content/uploads/2020/06/manos-barcode.png" class="d-block w-100" alt="...">
-        <div class="container wrap-animation">
+        </div><div class="carousel-item slider-image-1 ">
+            <div class="container wrap-animation">
                 <div class="row">
                     <div class="col-4 header-message">
                         <h1>NUESTRO TRABAJO SALVA VIDAS</h1>

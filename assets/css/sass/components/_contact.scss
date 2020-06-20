@@ -48,7 +48,8 @@
         overflow: hidden;
     }
     input[type="button"], 
-    input[type="submit"]{
+    input[type="submit"],
+    {
         -moz-box-shadow: inset 0px 1px 0px 0px $redDdb;
         -webkit-box-shadow: inset 0px 1px 0px 0px $redDdb;
         box-shadow: inset 0px 1px 0px 0px $redDdb;
@@ -70,4 +71,6 @@
         border: 1px solid #000000;
         box-shadow: inset 0px 1px 0px 0px #000000;
     }
+
+    
 }
