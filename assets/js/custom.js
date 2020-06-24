@@ -4,13 +4,16 @@
 
 $(document).ready(function(){
     $(window).bind('scroll', function() {
-          if ($(window).scrollTop() > 1) {
+          if ($(window).scrollTop() > 100) {
             $('.header .navbar').addClass('sticky')
             $('#search-form-main').addClass('sticky-search')
+            $('.nav-placeholder').css('height', 100);
+
           }
           else {
               $('.header .navbar').removeClass('sticky');
               $('#search-form-main').removeClass('sticky-search')
+              $('.nav-placeholder').css('height', 0);
           }
      });
  });

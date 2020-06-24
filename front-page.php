@@ -171,22 +171,22 @@ get_header();?>
     <div class="container mb-5 pt-5 border-top border-danger">
         <div class="row d-flex justify-content-between align-items-center">
             <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/ABBOTT.jpg" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/06/Logo-Farmalogica.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/BAXTER.png" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/06/stendhal-logo.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/BAYER.png" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/06/GOTHAPLAST-LOGO.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/B-BRAUN.jpg" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/06/LOGO-SURGIPLAST-NEW-12-CMS-COLOR.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/CHALVER.png" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/06/ICU_Logo_ES.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/BIOGEN.png" alt="" class="img-fluid">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/06/blaskov-logo.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -215,31 +215,6 @@ get_header();?>
             <p>Hospital San Rafael de Fusa</p>
         </div>
     </div> 
-</section>
-
-<section>
-    <div class="container mb-5 pt-5" >
-        <div class="row d-flex justify-content-between align-items-center">
-            <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/HOSP-SIMON-B.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/HOSP-TUNAL.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/HOSP-MEDERI.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/CLINICA-NUEVA.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/OSP-S-IGNACIO.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-2 text-center gray-hover-effect">
-                <img src="wp-content/uploads/2020/05/HOSP-MEISSEN.png" alt="" class="img-fluid">
-            </div>
-        </div>
-    </div>
 </section>
 
 

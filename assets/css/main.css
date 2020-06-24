@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*----------------------- Preloader -----------------------*/
 
 #preloader {
@@ -35,11 +37,13 @@
     position: fixed;
     width: 100%;
     top: 0;
+    transition: position 0.7s ease;
     background: #ffffff !important;
     box-shadow: 0px 6px 11px rgba(33, 33, 33, 0.53);
   }
 
   .sticky .container .collapse nav > ul > li > a {
+    transition: padding 0.5s ease;
     padding: 2.5em 1em;
   }
 
@@ -65,6 +69,7 @@
   }
 
   header .navbar {
+    top: 0;
     transition: background-color 0.7s ease;
     background-color: rgba(93, 93, 93, 0);
     margin: 0 -2em;
@@ -261,6 +266,10 @@
 }
 
 @media (max-width: 990px) and (min-width: 100px) {
+  .nav-placeholder {
+    display: none;
+  }
+
   #status {
     width: 100px;
     height: 100px;
@@ -685,6 +694,11 @@ footer .footer-copyright {
 
 .hero-image-header {
   background: #b70817;
+  background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 100%), url("http://localhost/ddb/wp-content/uploads/2020/06/cabecera3.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
   color: #ffffff;
 }
 
@@ -695,7 +709,7 @@ footer .footer-copyright {
 }
 
 .page-hero-text h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -770,6 +784,27 @@ footer .footer-copyright {
   height: 100%;
 }
 
+.section-compliance .compliance-elements-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 35%;
+  text-align: center;
+  background: rgba(31, 31, 31, 0.7);
+  transition: height 0.2s ease-out;
+  color: #ffffff;
+}
+
+.section-compliance .compliance-elements-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-compliance .compliance-elements-img:hover > .compliance-elements-text {
+  height: 100%;
+}
+
 .section-trabaja-con-nosotros p {
   font-size: 1.5em;
 }
@@ -782,7 +817,7 @@ footer .footer-copyright {
   }
 
   .page-hero-text h1 {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
   }
 
@@ -892,6 +927,66 @@ footer .footer-copyright {
   width: 85px;
   height: 85px;
   background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -1220px -980px;
+}
+
+.sprite-comercializacion {
+  width: 85px;
+  height: 85px;
+  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -490px -370px;
+}
+
+.sprite-distribucion {
+  width: 85px;
+  height: 85px;
+  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -980px -1600px;
+}
+
+.sprite-capacitacion {
+  width: 85px;
+  height: 85px;
+  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -1100px -490px;
+}
+
+.sprite-responsabilidad-social {
+  width: 85px;
+  height: 85px;
+  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -1592px 5px;
+}
+
+.sprite-tiempo {
+  width: 85px;
+  height: 85px;
+  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -850px -1355px;
+}
+
+.sprite-fecha {
+  width: 85px;
+  height: 85px;
+  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -610px 0px;
+}
+
+.sprite-telefono {
+  width: 85px;
+  height: 85px;
+  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -1100px -1100px;
+}
+
+.sprite-alianza {
+  width: 85px;
+  height: 85px;
+  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -1710px -1230px;
+}
+
+.sprite-inventarios {
+  width: 85px;
+  height: 85px;
+  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -610px -980px;
+}
+
+.sprite-soporte {
+  width: 85px;
+  height: 85px;
+  background: url("http://localhost/ddb/wp-content/uploads/2020/06/Pack-Iconos.png") -855px -735px;
 }
 
 .woocommerce .single-product {
@@ -1043,5 +1138,41 @@ body {
 
 .redDdb-text {
   color: #b70817;
+}
+
+.remove-clearfix:after {
+  content: none;
+}
+
+.remove-clearfix:before {
+  content: none;
+}
+
+.list-arrow li {
+  list-style: none;
+}
+
+.list-arrow li:before {
+  content: "\F152";
+  display: inline-block;
+  margin: 2px 5px 0 0;
+  color: #b70817;
+  font-family: "Font Awesome 5 Free";
+  font-size: 24px;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  list-style-type: none !important;
+  position: absolute;
+  left: 40px;
+}
+
+.dgwt-wcas-search-wrapp {
+  z-index: 999 !important;
 }
 

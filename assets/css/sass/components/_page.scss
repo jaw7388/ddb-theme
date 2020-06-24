@@ -1,11 +1,10 @@
 .hero-image-header{
     background: $redDdb;
-    // background-color: rgba(255, 255, 255, 0);
-    // background-image: url('http://localhost/ddb/wp-content/uploads/2020/06/Sin-título-2.jpg');
-    // background-position: center center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-attachment: fixed;
+    background-image: linear-gradient(340deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 100%),url('http://localhost/ddb/wp-content/uploads/2020/06/cabecera3.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
     color: #ffffff;
     //height: 40vh;
     //margin-bottom: 4em;
@@ -16,7 +15,7 @@
     background-position: left top;
     height: auto;
     h1{
-        font-size: 3em;
+        font-size: 2.5em;
         text-transform: uppercase;
         font-weight: 700;
         &:after{
@@ -92,6 +91,29 @@
     }
 }
 
+.section-compliance{
+    .compliance-elements-text{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 35%;
+        text-align: center;
+        background: rgba(31, 31, 31, 0.7);
+        transition: height 0.2s ease-out; 
+        color: #ffffff;
+    }
+    
+    .compliance-elements-img {
+        position: relative;
+        overflow: hidden;
+    
+        &:hover > .compliance-elements-text {
+            height: 100%;
+        }
+    }
+}
+
 
 .section-trabaja-con-nosotros{
     p{
@@ -115,7 +137,7 @@
         background-position: left top;
         height: auto;
         h1{
-            font-size: 3em;
+            font-size: 2em;
             text-align: center;
             &:after{
                 width: 5em;

@@ -23,7 +23,7 @@ get_template_part( 'template-parts/section', 'hero' );
                     </p>
                 </div>
 
-                <ul>
+                <ul class="list-arrow">
                     <li>
                         Efectuar esfuerzos permanentes para identificar y administrar los riesgos asociados a sus actividades.
                     </li>

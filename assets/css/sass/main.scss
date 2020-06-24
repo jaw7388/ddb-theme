@@ -14,7 +14,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .background-redddb{
-    background: #b70817;
+    background: $redDdb;
 }
 
 .gray-hover-effect img {
@@ -37,4 +37,44 @@ body{
 
 .redDdb-text{
     color: $redDdb;
+}
+
+.remove-clearfix{
+    &:after{
+        content: none;
+    }
+    &:before{
+        content: none;
+    }
+}
+
+.list-arrow{
+    li{
+        list-style: none;
+
+        &:before{
+            content: "\f152";
+            display: inline-block;
+            margin: 2px 5px 0 0;
+            color: $redDdb;
+            font-family: "Font Awesome 5 Free";
+            font-size: 24px;
+            font-style: normal !important;
+            font-weight: 400 !important;
+            font-variant: normal !important;
+            text-transform: none !important;
+            speak: none;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            list-style-type: none !important;
+            position: absolute;
+            left: 40px;
+            
+        }
+    }
+}
+
+.dgwt-wcas-search-wrapp{
+    z-index: 999 !important;
 }

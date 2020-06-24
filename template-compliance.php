@@ -63,39 +63,63 @@ get_template_part( 'template-parts/section', 'hero' );
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <p>
-                    Por esto, Depósito de Drogas Boyacá establece su Manual de Ética abarcando los siguientes lineamientos:     
-                    </p>
-                </div>
-                    <div class="row text-center">
-                        <div class="col-md-4">
-                            <div>
-                                <img src="http://localhost/ddb/wp-content/uploads/2020/06/audit-4190944_1920.jpg" alt="" class="w-100">
-                            </div>
-                            <h4>Prácticas Anticorrupción</h4>
-                        </div>
-                        <div class="col-md-4">
-                            <div>
-                                <img src="http://localhost/ddb/wp-content/uploads/2020/06/man-and-woman-near-table-3184465.jpg" alt="" class="w-100">
-                            </div>
-                            <h4>Concurrencia libre al mercado y leal competencia</h4>
-                        </div>
-                        <div class="col-md-4">
-                            <div>
-                                <img src="http://localhost/ddb/wp-content/uploads/2020/06/conclusion-of-the-contract-3100563_1920.jpg" alt="" class="w-100">
-                            </div>
-                            <h4>Prevención riesgos Lavado de Activos y Financiación del Terrorismo</h4>
-                        </div>
+            </div>
+            <div class="col-md-4">
+                <img src="http://localhost/ddb/wp-content/uploads/2020/06/disclaimer.jpg" alt="" class="w-100">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-compliance">
+<div class="container">
+    <div class="row">
+        <div class="row mt-3">
+            <p>
+            Por esto, Depósito de Drogas Boyacá establece su Manual de Ética abarcando los siguientes lineamientos:     
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="row">
+                <div class="compliance-elements-img">
+                    <img src="http://localhost/ddb/wp-content/uploads/2020/06/practicas-anticorrupcion.jpg" alt="" class="w-100">
+                    <div class="compliance-elements-text d-flex justify-content-center align-items-center">
+                        <h5 class="text-white">Prácticas Anticorrupción Prácticas Anticorrupción</h5>
                     </div>
                 </div>
-                <div>
-                Si está interesado en conocer más acerca de nuestras prácticas, atender alguna inquietud o realizar un reporte, puede dirigirla a etica@ddb.com.co
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="row">
+                <div class="compliance-elements-img">
+                    <img src="http://localhost/ddb/wp-content/uploads/2020/06/concurrencia-libre.jpg" alt="" class="w-100">
+                    <div class="compliance-elements-text d-flex justify-content-center align-items-center">
+                        <h5 class="text-white">Concurrencia libre al mercado y leal competencia</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="row">
+                <div class="compliance-elements-img">
+                    <img src="http://localhost/ddb/wp-content/uploads/2020/06/prevencion-riesgos-lavado.jpg" alt="" class="w-100">
+                    <div class="compliance-elements-text d-flex justify-content-center align-items-center">
+                        <h5 class="text-white">Prevención riesgos Lavado de Activos y Financiación del Terrorismo</h5>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="row background-redddb text-white mt-3 mb-3">
+        <div class="col-md-12 text-center pt-5 pb-5">
+            Si está interesado en conocer más acerca de nuestras prácticas, atender alguna inquietud o realizar un reporte, puede dirigirla a <a href="mailto:etica@ddb.com.co" class="text-white">etica@ddb.com.co</a>
+        </div>
+    </div>
+
 </section>
 
 <?php

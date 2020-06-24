@@ -11,11 +11,12 @@ get_template_part( 'template-parts/section', 'hero' );
 
 <section class="mb-5 mt-5">
     <div class="container">
-        <div class="row">
-            <div class="section-trabaja-con-nosotros">
-                <p class="text-justify mr-3 ml-3 mb-5">Si quieres hacer parte de nuestro equipo de trabajo, registra tu hoja de vida y estaremos en contacto según la disponibilidad de nuestras vacantes</p>
+        <div class="row border mt-3 mb-3">
+            <div class="col-md-12 text-center pt-5 pb-5">
+            Si quieres hacer parte de nuestro equipo de trabajo, registra tu hoja de vida y estaremos en contacto según la disponibilidad de nuestras vacantes
             </div>
         </div>
+        
         <div class="row">
             <div class="col-md-6 ">
                 

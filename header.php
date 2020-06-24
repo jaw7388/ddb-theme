@@ -60,7 +60,7 @@
 	
 	<nav class="navbar navbar-expand-lg navbar-light" role="navigation">
     
-		<div class="container d-flex justify-content-between">
+		<div class="container d-flex justify-content-between remove-clearfix">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div>
 				<a class="navbar-brand" href="<?php echo home_url(); ?>">
@@ -107,5 +107,5 @@
 
 		
 </header>
-
+<div class="nav-placeholder"></div>
 

@@ -13,14 +13,14 @@ get_template_part( 'template-parts/section', 'hero' );
     <div class="container">
         <div class="row">
             
-            <div class="col-md-8 pr-5">
+            <div class="col-md-8">
                 <p >
                 Nuestro grupo de asesores comerciales atienden a más de 450 clientes a nivel nacional, garantizando despachos y entregas en tiempos óptimos. 
                 </p>
                 <h2>Algunos de nuestros clientes</h2>
                 <div class="row mt-3">
-                    <div class="col-md-6">
-                    <ul>
+                    <div class="col-md-6 pr-5 pl-5">
+                    <ul class="list-arrow">
                         <li>Hospital Pablo Tobón Uribe - Medellín</li>
                         <li>Orden Hospitalaria San Juan de Dios</li>
                         <li>Corporación Hospitalaria Juan Ciudad</li>
@@ -35,8 +35,8 @@ get_template_part( 'template-parts/section', 'hero' );
                         <li>Clínica Palermo</li>
                     </ul>
                     </div>
-                    <div class="col-md-6">
-                    <ul>
+                    <div class="col-md-6 pr-5 pl-5">
+                    <ul class="list-arrow">
                         <li>Hospital Universitario San Ignacio</li>
                         <li>Centro Médico Imbanaco - Cali</li>
                         <li>Caja de Compensación Familiar Colsubsidio</li>
