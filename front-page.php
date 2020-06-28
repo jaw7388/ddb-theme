@@ -103,13 +103,13 @@ get_header();?>
                 <i class="fas fa-phone-volume"></i>
                 <div class="mt-3"></div>
                 <h6>LINEA NARANJA</h6>
-                <span class="icon-text">Suplimos con los productos en tiempo más reducido en caso de urgencias</span>   
+                <span class="icon-text">Abastecemos productos de manera inmediata para atención de urgencias vitales</span>   
             </div>
             <div class="col-md-3 text-center service">
                 <i class="fas fa-globe"></i>
                 <div class="mt-3"></div>
                 <h6>SOMOS ISO 6001</h6>
-                <span class="icon-text">NTC 6001:2008 desde el año 2014 y vigente a la fecha. Mostrando nuestra calidad en los procesos</span>   
+                <span class="icon-text">Acreditados en NTC 6001 desde el 2014 como garantía de la calidad en todos nuestros procesos</span>   
             </div>
         </div>
     </div>

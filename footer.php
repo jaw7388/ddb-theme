@@ -43,8 +43,10 @@
                             Transversal 93 # 51-98 
                             Parque Empresarial Puerta del Sol Bodega 18  . Bogotá-Colombia</a>
                     </li>
-                    <li><i class="far fa-clock"></i>Mar - Sab 7am - 4pm</li>
-                    <li><i class="fas fa-phone"></i><a href="tel:(1)7432597">(1) 743 25 97</a></li>
+                    <li><i class="far fa-clock"></i>Lun-Vie 7am-4pm | Sab 7am-1pm</li>
+                    <li><i class="fas fa-phone"></i><a href="tel:(+571)7432597">(1) 743 25 97</a></li>
+                    <li><i class="fas fa-phone"></i><a href="tel:(+57)3007484272">(+57) 300 748 42 72</a></li>
+                    
                     <li><i class="far fa-envelope"></i><a href="mailto:info@ddb.com.co">info@ddb.com.co</a></li>
                 </ul>
             </div>

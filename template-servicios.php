@@ -15,7 +15,7 @@ get_template_part( 'template-parts/section', 'hero' );
         <div class="mx-auto mb-3">
             <h2 class="text-left page-section-title">Nuestro trabajo también salva vidas</h2>
         </div>
-            <div class="col-md-8 pr-5">
+            <div class="col-md-12 pr-5">
                 <div class="row background-redddb text-white mb-3">
                     <div class="col-md-12 text-center pt-1 pb-1">
                         <h3>Servicios</h3>
@@ -147,9 +147,6 @@ get_template_part( 'template-parts/section', 'hero' );
 
 
 
-            </div>
-            <div class="col-md-4">
-                <img src="http://localhost/ddb/wp-content/uploads/2020/06/servicios.jpg" alt="" class="w-100">
             </div>
             
         </div>

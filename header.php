@@ -36,11 +36,15 @@
 			<div>
 				<span class="pr-3">
 					<i class="far fa-clock"></i>
-					Mar - Sab 7am - 4pm
+					Lun-Vie 7am - 4pm | Sab 7am - 1pm
 				</span>
 				<span class="border-left border-light pl-3 pr-3">
 					<i class="fas fa-phone"></i>	
 					<a href="tel:(1)7432597">(1) 743 25 97</a>
+				</span>
+				<span class="pr-3">
+					<i class="fas fa-phone"></i>	
+					<a href="tel:(+57)3007484272">(+57) 300 748 42 72</a>
 				</span>
 				<span class="border-left border-light pl-3 pr-3">
 					<i class="far fa-envelope"></i>
